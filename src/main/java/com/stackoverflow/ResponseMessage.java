@@ -1,4 +1,4 @@
-package com.stackoverflow.test;
+package com.stackoverflow;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

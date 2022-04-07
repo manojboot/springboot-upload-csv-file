@@ -1,4 +1,4 @@
-package com.stackoverflow.test.util;
+package com.stackoverflow.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.stackoverflow.test.model.Employee;
+import com.stackoverflow.model.Employee;
 
 public class GenericCSVHelper {
 	

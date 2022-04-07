@@ -1,4 +1,4 @@
-package com.stackoverflow.test.model;
+package com.stackoverflow.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

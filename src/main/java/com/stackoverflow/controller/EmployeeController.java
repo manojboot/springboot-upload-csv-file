@@ -1,4 +1,4 @@
-package com.stackoverflow.test.controller;
+package com.stackoverflow.controller;
 
 import java.util.List;
 
@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.stackoverflow.test.ResponseMessage;
-import com.stackoverflow.test.model.Employee;
-import com.stackoverflow.test.service.EmployeeService;
-import com.stackoverflow.test.util.CommonConstants;
-import com.stackoverflow.test.util.GenericCSVHelper;
+import com.stackoverflow.ResponseMessage;
+import com.stackoverflow.model.Employee;
+import com.stackoverflow.service.EmployeeService;
+import com.stackoverflow.util.CommonConstants;
+import com.stackoverflow.util.GenericCSVHelper;
 
 @RestController
 @RequestMapping("/api/v1/employee/csv")

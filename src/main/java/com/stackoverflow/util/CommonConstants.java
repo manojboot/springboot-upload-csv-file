@@ -1,4 +1,4 @@
-package com.stackoverflow.test.util;
+package com.stackoverflow.util;
 
 public class CommonConstants {
 
