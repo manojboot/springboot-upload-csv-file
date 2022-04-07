@@ -28,6 +28,7 @@ public class Employee {
 
 	@Column(length = 20)
 	private String gender;
+	private double salary;
 	
 
 }

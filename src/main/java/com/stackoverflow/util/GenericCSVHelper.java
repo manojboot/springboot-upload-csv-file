@@ -37,7 +37,8 @@ public class GenericCSVHelper {
 						record.get("first_name"),
 						record.get("last_name"),
 						record.get("email"),
-						record.get("gender")
+						record.get("gender"),
+						Double.parseDouble(record.get("salary"))
 				);
 				list.add(employee);
 			}
